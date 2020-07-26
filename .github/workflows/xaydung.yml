@@ -1,0 +1,79 @@
+name: build_ErfanGSIs
+
+on:
+  watch:
+    types: [started]
+    
+env:
+  ROM_URL: https://versaweb.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.7.23/xiaomi.eu_multi_MI8SE_20.7.23_v12-10.zip
+  ROM_NAME: MIUI
+  BUILD_AB: false
+  BUILD_AONLY: true
+  ROM_AONLY: M8SE_Aonly_20.7.23-eu.7z
+  ROM_AB: K20P_AB_20.7.16-eu.7z
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+
+    steps:
+       - name: Checkout
+         uses: actions/checkout@master
+       
+       - name: Clean Up
+         run: |
+           docker rmi `docker images -q`
+           sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
+           sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php*
+           sudo -E apt-get update
+           sudo -E apt-get -y autoremove --purge
+           sudo -E apt-get clean 
+           
+       - name: Initialization environment
+         run: |
+            sudo -E apt-get -qq update
+            sudo -E apt-get -qq install git openjdk-8-jdk p7zip gzip
+       
+       - name: Clone ErfanGSI Source Code
+         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
+       
+       - name: Setting up ErfanGSI requirements
+         run: |
+              sudo chmod -R 777 ErfanGSIs
+              cd ErfanGSIs
+              sudo bash setup.sh
+       
+       - name: Download Stock Rom & Generate Aonly GSI
+         if: env.BUILD_AONLY == 'true'
+         run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME
+       
+       - name: 7z Aonly GSI
+         if: env.BUILD_AONLY == 'true'
+         run: 7za a -t7z -r $ROM_AONLY ErfanGSIs/output/*
+       
+       - name: Upload Aonly GSI to WeTransfer
+         if: env.BUILD_AONLY == 'true'
+         run: |
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer wet $ROM_AONLY
+           
+       - name: Clear output
+         if: env.BUILD_AB == 'true'
+         run: sudo rm -rf ErfanGSIs/output/*
+         
+       - name: Download Stock Rom & Generate AB GSI
+         if: env.BUILD_AB == 'true'
+         run: sudo ./ErfanGSIs/url2GSI.sh -b $ROM_URL $ROM_NAME
+
+       - name: 7z AB GSI
+         if: env.BUILD_AB == 'true'
+         run: 7za a -t7z -r $ROM_AB ErfanGSIs/output/*
+
+       - name: Upload AB GSI to WeTransfer
+         if: env.BUILD_AB == 'true'
+         run: |
+              curl -sL https://git.io/file-transfer | sh
+              ./transfer wet $ROM_AB
+         
+            
