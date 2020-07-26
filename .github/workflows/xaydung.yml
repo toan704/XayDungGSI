@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://github.com/toan704/Team-Redesign/releases/download/V430A/VOS_3.0_Redesign_V430A.7z 
+  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v620a_v620aopen/f43a5601e88c83632682717a5a45c933f959feb3.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
