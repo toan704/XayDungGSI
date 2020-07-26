@@ -22,7 +22,7 @@ Generic Pixel
 Trên bước đường thành công, không có dấu chân của kẻ lười biếng vì kẻ lười biếng có chịu bước đâu :v
 ```
 # Hỗ trợ:
-- Tham Gia Group Redesign - Nơi Tái Chế System:
-https://t.me/systempublictaiche
+- Tham Gia Group Redesign - Nơi Tái Chế System: https://t.me/systempublictaiche
 - Youtube: Fix 704
+- Facebook: https://www.facebook.com/toan704
 # CHÚC CÁC BẠN THÀNH CÔNG! 
