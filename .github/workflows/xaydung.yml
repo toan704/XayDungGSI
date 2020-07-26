@@ -9,8 +9,8 @@ env:
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
-  ROM_AONLY: Vos_A.7z
-  ROM_AB: VosAB_2207.7z
+  ROM_AONLY: ROM_A.7z
+  ROM_AB: ROM_AB.7z
 
 jobs:
   build:
@@ -18,10 +18,10 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-       - name: Checkout
+       - name: Kiểm Tra Trích Xuất
          uses: actions/checkout@master
        
-       - name: Clean Up
+       - name: Dọn Dẹp Đầy Đủ
          run: |
            docker rmi `docker images -q`
            sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
@@ -30,21 +30,21 @@ jobs:
            sudo -E apt-get -y autoremove --purge
            sudo -E apt-get clean 
            
-       - name: Initialization environment
+       - name: Thiết Lập Môi Trường 
          run: |
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk p7zip
        
-       - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/HitaloSama/ErfanGSIs
+       - name: Lấy Nguồn 
+         run: git clone --recurse-submodules https://github.com/toan704/PortGSI.git
        
-       - name: Setting up ErfanGSI requirements
+       - name: Thiết lập các yêu cầu 
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
        
-       - name: Download Stock Rom & Generate Aonly GSI
+       - name: Tải Xuống ROM - Khởi Tạo Aonly GSI
          if: env.BUILD_AONLY == 'true'
          run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME
        
@@ -52,17 +52,17 @@ jobs:
          if: env.BUILD_AONLY == 'true'
          run: 7za a -t7z -r $ROM_AONLY ErfanGSIs/output/*
        
-       - name: Upload Aonly GSI to WeTransfer
+       - name: Upload Aonly
          if: env.BUILD_AONLY == 'true'
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit $ROM_AONLY
            
-       - name: Clear output
+       - name: Dọn Dẹp Đầu Ra
          if: env.BUILD_AB == 'true'
          run: sudo rm -rf ErfanGSIs/output/*
          
-       - name: Download Stock Rom & Generate AB GSI
+       - name: Tải Xuống ROM - Khởi Tạo AB GSI
          if: env.BUILD_AB == 'true'
          run: sudo ./ErfanGSIs/url2GSI.sh -b $ROM_URL $ROM_NAME
 
@@ -70,10 +70,11 @@ jobs:
          if: env.BUILD_AB == 'true'
          run: 7za a -t7z -r $ROM_AB ErfanGSIs/output/*
 
-       - name: Upload AB GSI to WeTransfer
+       - name: Upload AB 
          if: env.BUILD_AB == 'true'
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer bit $ROM_AB
               
-              
+           
+       - name: Toan704 sad: CHÚC CÁC BẠN THÀNH CÔNG
