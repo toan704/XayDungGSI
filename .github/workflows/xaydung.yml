@@ -1,16 +1,16 @@
-name: build_ErfanGSIs
+name: Xây Dựng Generic System Image
 
 on:
   watch:
     types: [started]
     
 env:
-  ROM_URL: https://versaweb.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.7.23/xiaomi.eu_multi_MI8SE_20.7.23_v12-10.zip
-  ROM_NAME: MIUI
-  BUILD_AB: false
-  BUILD_AONLY: true
-  ROM_AONLY: M8SE_Aonly_20.7.23-eu.7z
-  ROM_AB: K20P_AB_20.7.16-eu.7z
+  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v620a_v620aopen/f43a5601e88c83632682717a5a45c933f959feb3.zip
+  ROM_NAME: Generic
+  BUILD_AB: true
+  BUILD_AONLY: false
+  ROM_AONLY: Vos_A.7z
+  ROM_AB: VosAB_2207.7z
 
 jobs:
   build:
@@ -33,10 +33,10 @@ jobs:
        - name: Initialization environment
          run: |
             sudo -E apt-get -qq update
-            sudo -E apt-get -qq install git openjdk-8-jdk p7zip gzip
+            sudo -E apt-get -qq install git openjdk-8-jdk p7zip
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
+         run: git clone --recurse-submodules https://github.com/HitaloSama/ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
@@ -56,7 +56,7 @@ jobs:
          if: env.BUILD_AONLY == 'true'
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet $ROM_AONLY
+              ./transfer bit $ROM_AONLY
            
        - name: Clear output
          if: env.BUILD_AB == 'true'
@@ -74,6 +74,6 @@ jobs:
          if: env.BUILD_AB == 'true'
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet $ROM_AB
-         
-            
+              ./transfer bit $ROM_AB
+              
+              
