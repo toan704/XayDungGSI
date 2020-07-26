@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v620a_v620aopen/f43a5601e88c83632682717a5a45c933f959feb3.zip
+  ROM_URL: Link ROM
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
