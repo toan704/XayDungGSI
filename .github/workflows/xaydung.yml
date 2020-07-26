@@ -77,4 +77,3 @@ jobs:
               ./transfer bit $ROM_AB
               
            
-       - name: Toan704 sad: CHÚC CÁC BẠN THÀNH CÔNG
