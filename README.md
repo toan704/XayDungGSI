@@ -17,7 +17,11 @@ Generic MIUI OxygenOS Pixel
 11 R：
 Generic Pixel
  
-# Hỗ trợ
+# Câu nói truyền động lực:
+```
+Trên bước đường thành công, không có dấu chân của kẻ lười biếng vì kẻ lười biếng có chịu bước đâu :v
+```
+# Hỗ trợ:
 - Tham Gia Group Redesign - Nơi Tái Chế System:
 https://t.me/systempublictaiche
 - Youtube: Fix 704
