@@ -19,4 +19,5 @@ Generic Pixel
 
 Tham Gia Group Redesign - Nơi Tái Chế System:
 https://t.me/systempublictaiche
+Youtube: Fix 704
 # CHÚC CÁC BẠN THÀNH CÔNG! 
