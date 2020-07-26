@@ -17,12 +17,14 @@ Generic MIUI OxygenOS Pixel
 11 R：
 Generic Pixel
  
+# Video hướng dẫn:
+https://www.youtube.com/channel/UCp-a_8f9Zn6yqb_7W-LS-Gw?view_as=subscriber
 # Câu nói truyền động lực:
 ```
 Trên bước đường thành công, không có dấu chân của kẻ lười biếng vì kẻ lười biếng có chịu bước đâu :v
 ```
 # Hỗ trợ:
 - Tham Gia Group Redesign - Nơi Tái Chế System: https://t.me/systempublictaiche
-- Youtube: Fix 704
+- Youtube: https://www.youtube.com/channel/UCp-a_8f9Zn6yqb_7W-LS-Gw?view_as=subscriber
 - Facebook: https://www.facebook.com/toan704
 # CHÚC CÁC BẠN THÀNH CÔNG! 
