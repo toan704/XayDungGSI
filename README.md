@@ -16,8 +16,9 @@ Generic MIUI OxygenOS Pixel
 
 11 R：
 Generic Pixel
-
-Tham Gia Group Redesign - Nơi Tái Chế System:
+ 
+# Hỗ trợ
+- Tham Gia Group Redesign - Nơi Tái Chế System:
 https://t.me/systempublictaiche
-Youtube: Fix 704
+- Youtube: Fix 704
 # CHÚC CÁC BẠN THÀNH CÔNG! 
