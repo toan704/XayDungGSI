@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.3.0.QEECNXM/miui_MIMIX3_V11.0.3.0.QEECNXM_4d73488207_10.0.zip
+  ROM_URL: https://github.com/toan704/Team-Redesign/releases/download/V430A/VOS_3.0_Redesign_V430A.7z 
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
