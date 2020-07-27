@@ -1,4 +1,4 @@
-# Xây Dựng ROM GSI Từ ROM Custom - Stock
+# Xây Dựng ROM GSI 
 Điều Kiện:
 - Có một trình duyệt wed ổn định đảm bảo quá trình diễn ra suôn sẻ
 - Trong lúc diễn ra quá trình không được tắt màn hình hoặc chuyển sang tác vụ khác vì điều này dễ gây ra lỗi
