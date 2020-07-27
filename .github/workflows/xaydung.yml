@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://github.com/toan704/Tonner/releases/download/Tonner/VOS_3.0_Tonner_V620A.zip
+  ROM_URL: link ROM
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
