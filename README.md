@@ -3,6 +3,8 @@
 - Có một trình duyệt wed ổn định đảm bảo quá trình diễn ra suôn sẻ
 - Trong lúc diễn ra quá trình không được tắt màn hình hoặc chuyển sang tác vụ khác vì điều này dễ gây ra lỗi
 - Link ROM phải One Click ấn phát tải ngay 
+- Định dạng ROM.zip
+- ROM phải hỗ trợ treble
 ### URL ROM One Click ( Ví dụ )
 ```
 https://github.com/toan704/Team-Redesign/releases/download/V430A/VOS_3.0_Redesign_V430A.7z 
