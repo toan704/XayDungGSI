@@ -30,4 +30,4 @@ Trên bước đường thành công, không có dấu chân của kẻ lười 
 - Youtube: https://www.youtube.com/channel/UCp-a_8f9Zn6yqb_7W-LS-Gw?view_as=subscriber
 - Facebook: https://www.facebook.com/toan704
 # CHÚC CÁC BẠN THÀNH CÔNG! 
-![image](https://user-images.githubusercontent.com/67217560/88623155-8ddaf980-d0ce-11ea-8fe5-7fc4199c2aa9.png)
+![image](https://user-images.githubusercontent.com/67217560/88623800-f5457900-d0cf-11ea-8c43-205c0940cc8f.png)
