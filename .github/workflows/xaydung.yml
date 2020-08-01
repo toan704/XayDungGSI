@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: link ROM
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16xs/8.20.6.30/cn_beta/20200715101736/f31452ed/update.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
