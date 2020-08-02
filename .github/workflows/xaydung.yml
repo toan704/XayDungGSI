@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16xs/8.20.6.30/cn_beta/20200715101736/f31452ed/update.zip
+  ROM_URL: https://mde1.androidfilehost.com/dl/-jZESIcxW7BSRBHHnhwi3Q/1596431407/8889791610682903964/MMX_2.2.0_lavender_20.7.30_v12-10.zip?
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
