@@ -5,8 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mde1.androidfilehost.com/dl/-jZESIcxW7BSRBHHnhwi3Q/1596431407/8889791610682903964/MMX_2.2.0_lavender_20.7.30_v12-10.zip?
-  ROM_NAME: Generic
+  ROM_URL: https://ota.xiaomi-miui.gr/suktew23/roms/20.7.30/xiaomi-miui-hellas-XTRV-HMNote7_20.7.30_v12-10.zip
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: ROM_A.7z
