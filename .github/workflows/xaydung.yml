@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://srv-file5.gofile.io/download/25JuGv/Toan704_lavender_20.7.23_10.zip
+  ROM_URL: https://doc-0s-64-docs.googleusercontent.com/docs/securesc/jmseonsap9u00hit9l238sg1kgp0si3t/dl41e4vqs58poil7im8frfu9vpllsgo6/1596356025000/01854913209066256957/01854913209066256957/1HdnxAoYYt1V5BFFN42jPxJ8xtobOGx_z?e=download&authuser=0&nonce=ui0kt6ut8fe9m&user=01854913209066256957&hash=1mbep2qnkkbm9qj7hfh2ut2rp9vki3bg
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: ROM_A.7z
