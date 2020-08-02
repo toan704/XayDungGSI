@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://doc-0s-64-docs.googleusercontent.com/docs/securesc/jmseonsap9u00hit9l238sg1kgp0si3t/dl41e4vqs58poil7im8frfu9vpllsgo6/1596356025000/01854913209066256957/01854913209066256957/1HdnxAoYYt1V5BFFN42jPxJ8xtobOGx_z?e=download&authuser=0&nonce=ui0kt6ut8fe9m&user=01854913209066256957&hash=1mbep2qnkkbm9qj7hfh2ut2rp9vki3bg
+  ROM_URL: https://ota.xiaomi-miui.gr/suktew23/roms/20.7.30/xiaomi-miui-hellas-XTRV-HMNote7_20.7.30_v12-10.zip
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: ROM_A.7z
