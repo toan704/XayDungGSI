@@ -23,7 +23,7 @@ Generic Pixel
 https://www.youtube.com/channel/UCp-a_8f9Zn6yqb_7W-LS-Gw?view_as=subscriber
 # Câu nói truyền động lực:
 ```
-Trên bước đường thành công, không có dấu chân của kẻ lười biếng vì kẻ lười biếng có chịu bước đâu :v
+Trên bước đường thành công, không có dấu chân của kẻ lười biếng vì kẻ lười biếng có đi đâu mà có dấu chân :v
 ```
 # Hỗ trợ:
 - Tham Gia Group Redesign - Nơi Tái Chế System: https://t.me/systempublictaiche
