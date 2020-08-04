@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.1.0.QFGEUXM/miui_LAVENDEREEAGlobal_V11.0.1.0.QFGEUXM_fc2ac50c80_10.0.zip
+  ROM_URL: https://mde1.androidfilehost.com/dl/z_UOzzWZb43V-KCGBnAXHQ/1596641234/8889791610682904233/MiuiMiX_2.2.0_pyxis_20.7.30_v12-10.zip?
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: ROM_A.7z
