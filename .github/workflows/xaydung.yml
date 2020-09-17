@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mde1.androidfilehost.com/dl/z_UOzzWZb43V-KCGBnAXHQ/1596641234/8889791610682904233/MiuiMiX_2.2.0_pyxis_20.7.30_v12-10.zip?
-  ROM_NAME: MIUI
+  ROM_URL: https://va0-ftp.uploads.androidfilehost.com/dl/vfNWVCplYMLgAdE09FQ7KA/1600420845/8889791610682939035/forkLineage-17.1-20200916-UNOFFICIAL-lavender.zip?
+  ROM_NAME:  Generic
   BUILD_AB: true
   BUILD_AONLY: false
-  ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  ROM_AONLY: MIUI_Toan704_A.7z
+  ROM_AB: ROMv_AB.7z
 
 jobs:
   build:
