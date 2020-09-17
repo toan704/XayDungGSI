@@ -20,7 +20,7 @@ Generic MIUI OxygenOS Pixel
 Generic Pixel
  
 # Video hướng dẫn:
-https://www.youtube.com/channel/UCp-a_8f9Zn6yqb_7W-LS-Gw?view_as=subscriber
+https://youtu.be/rRSf-d-NZdU
 # Câu nói truyền động lực:
 ```
 Trên bước đường thành công, không có dấu chân của kẻ lười biếng vì kẻ lười biếng có đi đâu mà có dấu chân :v
