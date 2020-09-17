@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://va0-ftp.uploads.androidfilehost.com/dl/P9nMaLHOkhvEPbOGjfsYNA/1600421306/8889791610682939035/forkLineage-17.1-20200916-UNOFFICIAL-lavender.zip?
-  ROM_NAME: MIUI
+  ROM_URL: https://osdn.net/frs/redir.php?m=bfsu&f=%2Fstorage%2Fg%2Fc%2Fco%2Fcorvusos%2Flavender%2FCorvus_v9.0-EndGame-lavender-12092020-Official-1848.zip
+  ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
-  ROM_AONLY: MIUI_Toan704_A.7z
-  ROM_AB: MIUI_V1_AB.7z
+  ROM_AONLY: Corvus Aonly.7z
+  ROM_AB: Corvus Ab.7z
 
 jobs:
   build:
