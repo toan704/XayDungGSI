@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://va0-ftp.uploads.androidfilehost.com/dl/P9nMaLHOkhvEPbOGjfsYNA/1600421306/8889791610682939035/forkLineage-17.1-20200916-UNOFFICIAL-lavender.zip?
-  ROM_NAME: MIUI
+  ROM_URL: https://nchc.dl.sourceforge.net/project/evolution-x/dipper/EvolutionX_4.5_dipper-10.0-20200730-1739-OFFICIAL.zip
+  ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: MIUI_Toan704_A.7z
-  ROM_AB: MIUI_V1_AB.7z
+  ROM_AB: rom.7z
 
 jobs:
   build:
