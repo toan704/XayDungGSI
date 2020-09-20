@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://mirrors.bfsu.edu.cn/osdn//storage/g/c/co/corvusos/ginkgo/Corvus_v9.0-EndGame-ginkgo-13092020-Official-0840.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
