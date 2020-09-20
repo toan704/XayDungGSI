@@ -5,8 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
-  ROM_NAME: Generic
+  ROM_URL: https://udomain.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/xiaomi.eu_multi_MI8_V12.0.1.0.QEACNXM_v12-10.zip
+  ROM_NAME: MIUI
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: ROM_A.7z
