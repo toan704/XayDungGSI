@@ -5,8 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
-  ROM_NAME: Generic
+  ROM_URL:https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZS660KL/UL-ASUS_I001_1-ASUS-17.0240.2007.27-1.1.204-user.zip
+  ROM_NAME: ZENUI
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: ROM_A.7z
