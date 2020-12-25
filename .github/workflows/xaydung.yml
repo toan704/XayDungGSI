@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://va0-ftp.uploads.androidfilehost.com/dl/P9nMaLHOkhvEPbOGjfsYNA/1600421306/8889791610682939035/forkLineage-17.1-20200916-UNOFFICIAL-lavender.zip?
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
