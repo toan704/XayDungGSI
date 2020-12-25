@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://srv-file19.gofile.io/download/u5xlHf/OmniROM-AB-10-202008030953-ErfanGSI.7z
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
