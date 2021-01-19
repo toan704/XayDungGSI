@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://udomain.dl.sourceforge.net/project/nusantaraproject/lavender/Nusantara_v1.1-lavender-15092020-OFFICIAL-0730.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
-  ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  ROM_AONLY: RdthdfOM_A.7z
+  ROM_AB: RghthrOM_AB.7z
 
 jobs:
   build:
