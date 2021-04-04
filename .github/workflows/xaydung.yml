@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://jaist.dl.sourceforge.net/project/revengeos/ginkgo/RevengeOS-4.0-R-OFFICIAL-ginkgo-20210322-0909.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
