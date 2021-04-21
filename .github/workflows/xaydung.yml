@@ -5,10 +5,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://android.googleapis.com/packages/ota-api/package/b341dca09dadc0fbd0005a914b0131e9b0071af9.zip
   ROM_NAME: Generic
   BUILD_AB: true
-  BUILD_Aonly: false
+  BUILD_Aonly: true
   ROM_AONLY: ROM_A.7z
   ROM_AB: ROM_AB.7z
 
